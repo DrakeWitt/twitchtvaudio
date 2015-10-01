@@ -19,6 +19,5 @@ func main() {
 	n := negroni.Classic()
 	n.Use(negroni.HandlerFunc(controllers.HttpHeaderSet))
 	n.UseHandler(routers.Router)
-	n.Run("0.0.0.0:8089")
+	n.Run(os.Getenv("OPENSHIFT_GO_IP"):os.Getenv("OPENSHIFT_GO_PORT"))
 }
-

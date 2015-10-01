@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/codegangsta/negroni"
-	"github.com/equoia/twitchtvaudio/routers"
-	"github.com/equoia/twitchtvaudio/controllers"
+	"github.com/drakewitt/twitchtvaudio/routers"
+	"github.com/drakewitt/twitchtvaudio/controllers"
 	"os/exec"
 	"log"
 )

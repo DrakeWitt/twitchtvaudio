@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/equoia/twitchtvaudio/controllers"
+	"github.com/drakewitt/twitchtvaudio/controllers"
 	"github.com/gorilla/mux"
 	"github.com/codegangsta/negroni"
 	"net/http"
